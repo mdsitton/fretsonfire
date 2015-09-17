@@ -58,18 +58,12 @@ Released on 1.1.324:
  - don't allow zero fps (FIXED 303)
  - proper mod support (FIXED 321)
 
-Todo:
+Released in 1.2.438:
 
- - better documentation for the source
- - add custom fretboard and background support
+ - add custom fretboard and background support (FIXED 430)
  - abstract pygame mixer behind the Audio class (FIXED 320)
- - support for freetar sng files
- - support for gda files
- - support for dtx files
- - support for midi controllers
  - song folder support (FIXED 327)
- - apply alex's patches
- - screw-up volume doesn't work?
+ - screw-up volume doesn't work? (FIXED 403)
  - align notes to beat lines again (FIXED 400)
  - fix missing encoding error on linux (FIXED 328)
  - dual core perf improvements (FIXED 345)
@@ -79,8 +73,7 @@ Todo:
  - delete rhythm file after importing each song (FIXED 235)
  - improve importer encoding quality (FIXED 235)
  - make notes disappear when they are hit (FIXED 334)
- - fix volume saturation issue with GH2 tracks
- - add rhythm guitar playing support
+ - fix volume saturation issue with GH2 tracks (FIXED 403)
  - fix performance issue with note effect (FIXED 334)
  - move the multiplier text upwards (FIXED 330)
  - pause the song while the menu is shown (FIXED 320)
@@ -93,4 +86,24 @@ Todo:
  - fix Numeric memory leak (FIXED 342)
  - fix importing two missing songs on GH1 and GH2 disks (FIXED 345)
  - tapping support, aka hammer-ons and pull-ofs (FIXED 409)
+
+Released in 1.2.451:
+
+ - fix hopo conflicting with normal gameplay (FIXED 439)
+ - fix audio crashes and skipping (FIXED 450)
+ - song editor startup fix (FIXED 449)
+ - fix graphics glitches on some graphics cards (FIXED 448)
+ - song filter improvements (FIXED 446)
+ - made tapping configurable (FIXED 442)
+ - linux packaging fixes (FIXED 441)
+
+Todo:
+
+ - better documentation for the source
+ - support for freetar sng files
+ - support for gda files
+ - support for dtx files
+ - support for midi controllers
+ - add a song testing mode to the editor
+ - add rhythm guitar playing support
  - lyrics support
