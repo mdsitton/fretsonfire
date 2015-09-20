@@ -1,3 +1,5 @@
+Development of this fork has moved here: https://github.com/fofix/fof-reborn
+
                          ___ __  __ __ __
                         /_  /_) /_  / (
                        /   / \ /_  / __)
